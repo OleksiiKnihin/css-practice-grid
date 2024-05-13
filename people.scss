@@ -1,0 +1,11 @@
+.people {
+  padding: 30px 35px;
+  display: grid;
+  grid-template-columns: repeat(2, $card-width);
+  column-gap: 30px;
+  justify-content: center;
+
+    @media (min-width: 1000px) {
+        grid-template-columns: repeat(4, $card-width);
+      }
+}
